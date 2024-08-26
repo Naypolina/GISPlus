@@ -45,7 +45,7 @@ class MainWindow(QtWidgets.QMainWindow):
         self.errors_dictionary = {}
 
         # загрузка базы данных в таблицу
-        # self.display_DB()
+        self.display_DB()
 
     # выбор LAS для открытия
     def openLAS(self):
